@@ -25,7 +25,10 @@
 
 pip install -r requirements.txt
 
-#### Добавить в настройки свою бд
+#### Добавить в настроить свою бд
+'NAME': ''
+'USER': ''
+'PASSWORD': ''
 
 python manage.py makemigrations
 
