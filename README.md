@@ -25,7 +25,7 @@
 
 pip install -r requirements.txt
 
-#### Добавить в настроbnm свою бд
+#### Добавить в настроить свою бд
 'NAME': ''
 'USER': ''
 'PASSWORD': ''
