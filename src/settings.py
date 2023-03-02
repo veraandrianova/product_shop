@@ -29,8 +29,6 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -43,7 +41,8 @@ INSTALLED_APPS = [
     'djoser',
     'drf_yasg',
     'user',
-    'product'
+    'product',
+    'cart',
 ]
 
 MIDDLEWARE = [
@@ -180,6 +179,8 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+CART_SESSION_ID = 'cart'
 
 AUTH_USER_MODEL = "user.User"
 # Static files (CSS, JavaScript, Images)
