@@ -1,6 +1,8 @@
+from django.contrib.auth import authenticate
 from django.core.exceptions import ValidationError
-from djoser.serializers import UserCreatePasswordRetypeSerializer, UserSerializer
+from djoser.serializers import UserCreatePasswordRetypeSerializer, TokenCreateSerializer
 from rest_framework import serializers
+from rest_framework.authtoken.models import Token
 
 from .models import User
 from .validators import validate_password
